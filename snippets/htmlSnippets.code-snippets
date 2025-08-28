@@ -1,0 +1,375 @@
+{
+    "htmlSnippets": {
+        "Citação": {
+            "prefix": "tpl-citacao",
+            "body": [
+                "<h3>Citação</h3>",
+                "<div class=\"citacao\">",
+                "    <p></p>",
+                "</div>",
+                "<div class=\"destaque-imagem\">",
+                "    <p></p>",
+                "</div>"
+            ],
+            "description": "Snippet para citação com destaque de imagem"
+        },
+        "Caixas de destaque": {
+            "prefix": "tpl-caixa-destaque",
+            "body": [
+                "<h2>Caixas de destaque</h2>",
+                "<p class=\"paragrafo-destaque\"><b>PARÁGRAFO DESTAQUE</b> lorem</p>",
+                "<div class=\"grafismo\">",
+                "    <div class=\"destaque gradiente\"></div>",
+                "        <p><b>DESTAQUE GRADIENTE SEM ÍCONE</b> - Lorem .</p>",
+                "    </div>",
+                "</div>"
+            ],
+            "description": "Snippet para caixas de destaque"
+        },
+        "Flip cards": {
+            "prefix": "tpl-flip-card",
+            "body": [
+                "<h2>Flip cards</h2>",
+                "<div class=\"d-flex flex-wrap justify-content-around no-print\" aria-hidden=\"true\">",
+                "    <div class=\"flip-card\">",
+                "        <div class=\"flip-card-inner radius\">",
+                "            <div class=\"flip-card-front\">",
+                "                <p>FRENTE</p>",
+                "            </div>",
+                "            <div class=\"flip-card-back\">",
+                "                <p>VERSO</p>",
+                "            </div>",
+                "        </div>",
+                "    </div>",
+                "</div>"
+            ],
+            "description": "Snippet para flip cards"
+        },
+        "Saiba mais expansivel": {
+            "prefix": "tpl-saiba-mais",
+            "body": [
+                "<h2>Saiba mais expansivel</h2>",
+                "<div class=\"caixa-container destaque icone exemplo borda-colorida\">",
+                "    <div class=\"caixa-exp\">",
+                "        <p></p>",
+                "    </div>",
+                "    <button class=\"btpluscaixa\"></button>",
+                "</div>"
+            ],
+            "description": "Snippet para caixa expansível"
+        },
+        "Tabela": {
+            "prefix": "tpl-tabela",
+            "body": [
+                "<h2>Tabela</h2>",
+                "<div class=\"table-responsive table\">",
+                "    <table class=\"text-left align-middle\">",
+                "        <thead>",
+                "            <tr>",
+                "                <th class=\"w-25\">Coluna 1</th>",
+                "                <th class=\"w-25\">Coluna 2</th>",
+                "                <th class=\"w-25\">Coluna 3</th>",
+                "                <th class=\"w-25\">Coluna 4</th>",
+                "            </tr>",
+                "        </thead>",
+                "        <tbody>",
+                "            <tr>",
+                "                <td>Texto</td>",
+                "                <td>Texto</td>",
+                "                <td>Texto</td>",
+                "                <td>Texto</td>",
+                "            </tr>",
+                "        </tbody>",
+                "    </table>",
+                "</div>"
+            ],
+            "description": "Snippet para tabela"
+        },
+        "Figura com legenda": {
+            "prefix": "tpl-figura-legenda",
+            "body": [
+                "<figure class=\"my-5\">",
+                "    <div class=\"figure-img\">",
+                "        <img class=\"img-fluid d-block borda-colorida mx-auto mb-4 print\" src=\"\">",
+                "    </div>",
+                "    <figcaption class=\"figure-caption text-center\">Legenda e fonte</figcaption>",
+                "</figure>"
+            ],
+            "description": "Snippet para figura com legenda"
+        },
+        "Figura com zoom no mobile": {
+            "prefix": "tpl-figura-zoom",
+            "body": [
+                "<h3>Figura com zoom no mobile</h3>",
+                "<figure class=\"my-5\">",
+                "    <a href=\"\" target=\"_blank\" class=\"img-zoom no-print\" aria-hidden=\"true\">",
+                "        <img src=\"\" class=\"img-fluid mx-auto mb-3 radius\" alt=\"Imagem\">",
+                "    </a>",
+                "    <img src=\"\" class=\"img-fluid mx-auto mb-3 only-print\" alt=\"Imagem\">",
+                "    <figcaption class=\"figure-caption text-center\">Legenda e fonte</figcaption>",
+                "</figure>"
+            ],
+            "description": "Snippet para figura com zoom no mobile"
+        },
+        "Lista com marcadores": {
+            "prefix": "tpl-lista-marcadores",
+            "body": [
+                "<h2>Lista com marcadores</h2>",
+                "<ul class=\"marcador-padrao\">",
+                "    <li>Marcador padrão</li>",
+                "</ul>",
+                "<ul class=\"marcador-seta\">",
+                "    <li>Marcador seta</li>",
+                "</ul>",
+                "<ul class=\"marcador-check\">",
+                "    <li>Marcador check</li>",
+                "</ul>",
+                "<ol class=\"marcador-numeral\">",
+                "    <li>Marcador 1</li>",
+                "</ol>",
+                "<ol type=\"a\" class=\"marcador-letras\">",
+                "    <li>Marcador a</li>",
+                "</ol>"
+            ],
+            "description": "Snippet para listas com diferentes marcadores"
+        },
+        "Tooltip e Pop-over": {
+            "prefix": "tpl-tooltip-popover",
+            "body": [
+                "<h2>Tooltip e Pop-over</h2>",
+                "<button type=\"button\" class=\"bt-tooltip\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" title=\"Descrição da palavra.\">",
+                "    tooltip",
+                "</button>",
+                "<button type=\"button\" class=\"botao hvr-grow-shadow\" data-bs-toggle=\"popover\"",
+                "    title=\"Título do popover\"",
+                "    data-bs-content=\"Conteúdo do popover que pode conter um parágrafo.\">popover</button>"
+            ],
+            "description": "Snippet para tooltip e pop-over"
+        },
+        "Modal pequena": {
+            "prefix": "tpl-modal-pequena",
+            "body": [
+                "<button type=\"button\" class=\"botao check hvr-grow-shadow\" data-bs-toggle=\"modal\" data-bs-target=\"#modal1\">",
+                "    Modal pequena",
+                "</button>",
+                "<div class=\"modal fade\" id=\"modal1\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\">",
+                "    <!-- ... conteúdo da modal ... -->",
+                "</div>"
+            ],
+            "description": "Snippet para modal pequena"
+        },
+        "Modal grande": {
+            "prefix": "tpl-modal-grande",
+            "body": [
+                "<button type=\"button\" class=\"botao check hvr-grow-shadow\" data-bs-toggle=\"modal\" data-bs-target=\"#modal2\">",
+                "    Modal grande",
+                "</button>",
+                "<div class=\"modal fade\" id=\"modal2\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\">",
+                "    <!-- ... conteúdo da modal ... -->",
+                "</div>"
+            ],
+            "description": "Snippet para modal grande"
+        },
+        "Modal grande com áudio": {
+            "prefix": "tpl-modal-audio",
+            "body": [
+                "<button type=\"button\" class=\"botao check hvr-grow-shadow\" data-bs-toggle=\"modal\" data-bs-target=\"#modal3\">",
+                "    Modal grande com áudio",
+                "</button>",
+                "<div class=\"modal fade\" id=\"modal3\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\">",
+                "    <!-- ... conteúdo da modal ... -->",
+                "</div>"
+            ],
+            "description": "Snippet para modal grande com áudio"
+        },
+        "Botões": {
+            "prefix": "tpl-botoes",
+            "body": [
+                "<h2>Botões</h2>",
+                "<button type=\"button\" class=\"botao hvr-grow-shadow no-print\">Botão padrão SEM check</button>",
+                "<button type=\"button\" class=\"botao check hvr-grow-shadow no-print\">Botão padrão COM check</button>",
+                "<a role=\"button\" class=\"botao bt-download hvr-grow-shadow\" href=\"\" target=\"_blank\">Baixar</a>",
+                "<a role=\"button\" class=\"botao bt-pdf hvr-grow-shadow\" href=\"\" target=\"_blank\">Baixar PDF</a>"
+            ],
+            "description": "Snippet para botões"
+        },
+        "Painéis gaitinha e de abas": {
+            "prefix": "tpl-painel-gaitinha-abas",
+            "body": [
+                "<h2>Painéis gaitinha e de abas</h2>",
+                "<div class=\"accordion\" id=\"accordionExample\">",
+                "    <!-- ... itens do acordeão ... -->",
+                "</div>",
+                "<ul class=\"nav nav-tabs\" id=\"myTab\" role=\"tablist\" aria-hidden=\"true\">",
+                "    <!-- ... abas ... -->",
+                "</ul>",
+                "<div class=\"tab-content\" id=\"myTabContent\">",
+                "    <!-- ... conteúdo das abas ... -->",
+                "</div>"
+            ],
+            "description": "Snippet para painéis gaitinha e de abas"
+        },
+        "Painel clicável": {
+            "prefix": "tpl-painel-clicavel",
+            "body": [
+                "<div class=\"d-flex painel-clicavel my-5 justify-content-around flex-wrap no-print\">",
+                "    <button type=\"button\" class=\"bt-clicavel1 check hvr-grow-shadow\" data-bs-toggle=\"modal\" data-bs-target=\"#modal-clicavel1\">",
+                "        <span class=\"botao\">Lorem ipsum</span>",
+                "    </button>",
+                "</div>",
+                "<div class=\"modal fade\" id=\"modal-clicavel1\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\">",
+                "    <!-- ... conteúdo da modal ... -->",
+                "</div>"
+            ],
+            "description": "Snippet para painel clicável"
+        },
+        "Slideshow com borda colorida": {
+            "prefix": "tpl-slideshow-borda",
+            "body": [
+                "<div id=\"carousel1\" class=\"carousel slide carousel-fade\" data-bs-ride=\"carousel\" data-bs-interval=\"false\">",
+                "    <!-- ... slides ... -->",
+                "</div>"
+            ],
+            "description": "Snippet para slideshow com borda colorida"
+        },
+        "Podcast": {
+            "prefix": "tpl-podcast",
+            "body": [
+                "<div class=\"bg-wrapper\">",
+                "    <div class=\"bg-podcast no-print\">",
+                "        <!-- ... conteúdo do podcast ... -->",
+                "    </div>",
+                "</div>",
+                "<div class=\"modal fade no-print\" id=\"modal-transcricao-audio1\" tabindex=\"-1\" aria-labelledby=\"modal-transcricao-audio1\" aria-hidden=\"true\">",
+                "    <!-- ... conteúdo da modal ... -->",
+                "</div>"
+            ],
+            "description": "Snippet para podcast"
+        },
+        "Áudio": {
+            "prefix": "tpl-audio",
+            "body": [
+                "<div class=\"bg-audio\">",
+                "    <div class=\"bg-podcast no-print audio\">",
+                "        <!-- ... conteúdo do áudio ... -->",
+                "    </div>",
+                "</div>",
+                "<div class=\"modal fade no-print\" id=\"modal-transcricao-audio2\" tabindex=\"-1\" aria-labelledby=\"modal-transcricao-audio1\" aria-hidden=\"true\">",
+                "    <!-- ... conteúdo da modal ... -->",
+                "</div>"
+            ],
+            "description": "Snippet para áudio"
+        },
+        "Vídeo": {
+            "prefix": "tpl-video",
+            "body": [
+                "<div class=\"ratio ratio-16x9 mb-5 no-print\" aria-hidden=\"true\">",
+                "    <iframe class=\"radius\" src=\"https://beyond.spalla.io/player/?video=0197ccc3-2882-7970-99e6-4eac61c50494\"",
+                "        title=\"YouTube video player\" frameborder=\"0\"",
+                "        allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"",
+                "        allowfullscreen></iframe>",
+                "</div>"
+            ],
+            "description": "Snippet para vídeo"
+        },
+        "Testes interativos": {
+            "prefix": "tpl-testes-interativos",
+            "body": [
+                "<h2>Testes interativos</h2>",
+                "<div class=\"box-atividade no-print\">",
+                "    <h3>Verdadeiro ou falso</h3>",
+                "    <!-- ... conteúdo do teste ... -->",
+                "</div>",
+                "<div class=\"box-atividade no-print\">",
+                "    <h3><i>Quiz</i></h3>",
+                "    <div id=\"app\">",
+                "        <!-- ... quiz ... -->",
+                "    </div>",
+                "</div>"
+            ],
+            "description": "Snippet para testes interativos"
+        },
+        "Arrasta e solta": {
+            "prefix": "tpl-arrasta-solta",
+            "body": [
+                "<div class=\"box-atividade no-print\">",
+                "    <h3>Arrasta e solta</h3>",
+                "    <div id=\"content-game\">",
+                "        <!-- ... conteúdo do jogo ... -->",
+                "    </div>",
+                "</div>"
+            ],
+            "description": "Snippet para arrasta e solta"
+        },
+        "Arrasta e solta com imagem": {
+            "prefix": "tpl-arrasta-solta-imagem",
+            "body": [
+                "<div class=\"box-atividade no-print\">",
+                "    <h3>Arrasta e solta com imagem</h3>",
+                "    <div id=\"content-game02\">",
+                "        <!-- ... conteúdo do jogo ... -->",
+                "    </div>",
+                "</div>"
+            ],
+            "description": "Snippet para arrasta e solta com imagem"
+        },
+        "Relacionar colunas": {
+            "prefix": "tpl-relacionar-colunas",
+            "body": [
+                "<div class=\"box-atividade no-print\">",
+                "    <h3>Relacionar colunas</h3>",
+                "    <div class=\"game-associar-colunas mt-5\">",
+                "        <!-- ... conteúdo do jogo ... -->",
+                "    </div>",
+                "</div>"
+            ],
+            "description": "Snippet para relacionar colunas"
+        },
+        "Jogo da memória": {
+            "prefix": "tpl-jogo-memoria",
+            "body": [
+                "<div class=\"box-atividade no-print\">",
+                "    <h3>Jogo da memória</h3>",
+                "    <div class=\"jogoMemoria mt-5\">",
+                "        <!-- ... cartas ... -->",
+                "    </div>",
+                "</div>"
+            ],
+            "description": "Snippet para jogo da memória"
+        },
+        "Atividade de pontuação": {
+            "prefix": "tpl-atividade-pontuacao",
+            "body": [
+                "<div class=\"box-atividade no-print\">",
+                "    <h3>Atividade de pontuação</h3>",
+                "    <!-- ... opções ... -->",
+                "</div>"
+            ],
+            "description": "Snippet para atividade de pontuação"
+        },
+        "Complete a frase": {
+            "prefix": "tpl-complete-frase",
+            "body": [
+                "<div class=\"box-atividade no-print\">",
+                "    <h3>Complete a frase</h3>",
+                "    <div class=\"activity-container\">",
+                "        <!-- ... frases e banco de palavras ... -->",
+                "    </div>",
+                "</div>"
+            ],
+            "description": "Snippet para atividade de completar frase"
+        },
+        "Caça-palavras": {
+            "prefix": "tpl-caca-palavras",
+            "body": [
+                "<div class=\"box-atividade no-print\">",
+                "    <div class=\"words text-center\" id=\"wordsList\"></div>",
+                "    <div class=\"wordSearch\" id=\"wordSearch\">",
+                "        <table id=\"puzzleGrid\"></table>",
+                "    </div>",
+                "</div>"
+            ],
+            "description": "Snippet para caça-palavras"
+        }
+    }
+}
