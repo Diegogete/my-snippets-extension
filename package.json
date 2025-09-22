@@ -1,9 +1,9 @@
 {
-  "name": "Fronted-snippets",
-  "displayName": "Fronted-snippets",
+  "name": "FrontedSnippets",
+  "displayName": "Fronted Snippets",
   "version": "1.0.0",
   "description": "Uma coleção de snippets personalizados",
-  "publisher": "Diego Reis",
+  "publisher": "FrontedSnippets",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.28.0"
@@ -29,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Diegogete/my-snippets-extension"
   }
 }
